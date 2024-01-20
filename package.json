@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "twcli": "npx tailwindcss -i ./assets/src/css/main.css -o ./assets/dist/css/styles.css --watch",
-    "watch:css": "postcss assets/src/css/main.css -o assets/dist/css/styles.css --watch"
+    "watch:css": "postcss assets/src/css/main.css -o ./style.css --watch"
   },
   "author": "",
   "license": "ISC",

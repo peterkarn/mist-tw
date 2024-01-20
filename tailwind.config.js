@@ -10,7 +10,10 @@ function getSpaces({ isMinus } = {}) {
 }
 
 module.exports = {
-  content: ["./index.html", "./index.php"],
+  content: [
+    "./*.php",
+    "./**/*.php",
+  ],
   theme: {
     extend: {},
   },
